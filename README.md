@@ -1,11 +1,11 @@
-# AirBnB Clone
-The initial stage of the Holberton School's AirBnB project focuses on fundamental concepts of advanced programming and introduces a console. The objective of the project is to deploy a server that replicates the AirBnB website (HBnB). During this stage, a command interpreter is developed to oversee object management for the website.
+# AirBnB Clone - The Console
+The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
 #### Functionalities of this command interpreter:
-* Create a new object, i.e a new User or a new Place
-* Get an object from a file, a database etc...
-* Perform operations on objects (count, get stats, and so on)
-* Update object attributes
+* Create a new object (ex: a new User or a new Place)
+* Retrieve an object from a file, a database etc...
+* Do operations on objects (count, compute stats, etc...)
+* Update attributes of an object
 * Destroy an object
 
 ## Table of Content
@@ -16,13 +16,14 @@ The initial stage of the Holberton School's AirBnB project focuses on fundamenta
 * [Examples of use](#examples-of-use)
 * [Bugs](#bugs)
 * [Authors](#authors)
+* [License](#license)
 
 ## Environment
-This project is interpreted/tested on Ubuntu 20.04 LTS using python3 (version 3.8.10)
+This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 
 ## Installation
-* Clone this repository: `git clone "https://github.com/leyume/AirBnB_clone_v3.git"`
-* Access AirBnb directory: `cd AirBnB_clone_v3`
+* Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
+* Access AirBnb directory: `cd AirBnB_clone`
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
 
@@ -138,13 +139,13 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) all MyModel
 ** class doesn't exist **
 (hbnb) create BaseModel
-8e66ceee-1f71-4663-bd3a-79b0e43e2a70
+7da56403-cc45-4f1c-ad32-bfafeb2bb050
 (hbnb) all BaseModel
-[[BaseModel] (8e66ceee-1f71-4663-bd3a-79b0e43e2a70) {'updated_at': datetime.datetime(2023, 9, 28, 9, 50, 46, 772167), 'id': '8e66ceee-1f71-4663-bd3a-79b0e43e2a70', 'created_at': datetime.datetime(2023, 9, 28, 9, 50, 46, 772123)}]
-(hbnb) show BaseModel 8e66ceee-1f71-4663-bd3a-79b0e43e2a70
-[BaseModel] (8e66ceee-1f71-4663-bd3a-79b0e43e2a70) {'updated_at': datetime.datetime(2023, 9, 28, 9, 50, 46, 772167), 'id': '8e66ceee-1f71-4663-bd3a-79b0e43e2a70', 'created_at': datetime.datetime(2023, 9, 28, 9, 50, 46, 772123)}
-(hbnb) destroy BaseModel 8e66ceee-1f71-4663-bd3a-79b0e43e2a70
-(hbnb) show BaseModel 8e66ceee-1f71-4663-bd3a-79b0e43e2a70
+[[BaseModel] (7da56403-cc45-4f1c-ad32-bfafeb2bb050) {'updated_at': datetime.datetime(2017, 9, 28, 9, 50, 46, 772167), 'id': '7da56403-cc45-4f1c-ad32-bfafeb2bb050', 'created_at': datetime.datetime(2017, 9, 28, 9, 50, 46, 772123)}]
+(hbnb) show BaseModel 7da56403-cc45-4f1c-ad32-bfafeb2bb050
+[BaseModel] (7da56403-cc45-4f1c-ad32-bfafeb2bb050) {'updated_at': datetime.datetime(2017, 9, 28, 9, 50, 46, 772167), 'id': '7da56403-cc45-4f1c-ad32-bfafeb2bb050', 'created_at': datetime.datetime(2017, 9, 28, 9, 50, 46, 772123)}
+(hbnb) destroy BaseModel 7da56403-cc45-4f1c-ad32-bfafeb2bb050
+(hbnb) show BaseModel 7da56403-cc45-4f1c-ad32-bfafeb2bb050
 ** no instance found **
 (hbnb) quit
 ```
@@ -153,5 +154,14 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Leye Oluwaleimu - [Github](https://github.com/leyume)  
-Ojieide Egbomondion - [Github](https://github.com/ojieide)
+Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
+Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang) 
+Obed Ehoneah - [Github](https://github.com/ehoneahobed) / [Twitter](https://ehoneahobed.com/twitter)
+Grace Olabode - [Github](https://github.com/Amazingracee) / [Twitter](https://olabodephoeb.com/twitter)
+=======
+
+>>>>>>> aac5acdaf910012588914eb3717c1dfbc215cbd8
+Second part of Airbnb: Joann Vuong
+
+## License
+Public Domain. No copy write protection. 
